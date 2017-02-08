@@ -13,7 +13,7 @@ function slowlog(that, exp=/.*/, opts={}){
   }
 
   let bound = []
-  let componentName = that.constructor.displayName || 'Class'
+  let componentName = that.constructor.displayName || that.constructor.name || 'Class'
   const { threshold, log:c, verbose, excludes } = {...defaultOpts, ...opts}
 
   c.log(`slowlog: DEV MODE SLOWLOG ENABLED FOR <${componentName}>`)
