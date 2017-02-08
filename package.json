@@ -1,6 +1,6 @@
 {
   "name": "react-native-slowlog",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A tiny in-process profiler for React Native",
   "main": "index.js",
   "scripts": {
